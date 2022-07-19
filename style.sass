@@ -13,17 +13,11 @@
 .menu
     display: flex
     justify-content: space-between
-
-.menu-left
-    margin-top: 22px
-
-.menu-right
-    margin-top: 35px
     &__link
         text-decoration: none
         padding: 12px 12px
         margin-right: 5px
-        font-family: Lato
+        font-family: 'Lato'
         font-weight: 700
         font-size: 14px
         color: #868686
@@ -31,6 +25,12 @@
         &_hover:hover
             background-color: #ffbb42
             color: #ffffff
+
+.menu-left
+    margin-top: 22px
+
+.menu-right
+    margin-top: 35px
 
 // header-box
 .header-box
@@ -40,7 +40,7 @@
     &__h1-text
         padding-top: 110px
         text-align: center
-        font-family: Lato
+        font-family: 'Lato'
         font-size: 35px
         font-weight: 900
         color: #ffffff
@@ -85,7 +85,7 @@
         min-width: 86px
         background-color: #ffbb42
         color: #ffffff
-        font-family: OpenSans
+        font-family: 'Open Sans'
         font-size: 16px
         font-weight: 900
         border: none
@@ -110,13 +110,13 @@
     margin-bottom: 155px
     &__h2-text
         text-align: center
-        font-family: OpenSans
+        font-family: 'Open Sans'
         font-size: 30px
         font-weight: 900
         margin: 0px
     &__text
         text-align: center
-        font-family: OpenSans
+        font-family: 'Open Sans'
         font-size: 16px
         font-weight: 300
         margin-top: 5px
@@ -140,12 +140,12 @@
     &__description
         padding-left: 85px
     &__h3
-        font-family: Lato
+        font-family: 'Lato'
         font-size: 16px
         color: #394b50
         line-height: 1.38
     &__text
-        font-family: OpenSans
+        font-family: 'Open Sans'
         font-size: 13px
         color: #394b50
         padding-bottom: 50px
@@ -175,7 +175,7 @@
         color: #fff
         font-size: 30px
         font-weight: 900
-        font-family: OpenSans
+        font-family: 'Open Sans'
         text-transform: uppercase
         margin-bottom: 28px
     &__text
@@ -187,7 +187,7 @@
     &__btn
         padding: 17px 33px
         border: solid 1px #e7ad48
-        font-family: Lato
+        font-family: 'Lato'
         font-size: 14px
         text-decoration: none
         color: #fff
@@ -199,12 +199,12 @@
     min-height: 898px
     &__h3
         padding-top: 137px
-        font-family: Lato
+        font-family: 'Lato'
         font-size: 30px
         font-weight: 900
         letter-spacing: -0.75px
     &__text
-        ont-family: Lato
+        ont-family: 'Lato'
         font-size: 18px
         font-weight: 300
         color: #75888d
@@ -226,7 +226,7 @@
         background-color: #709dca
         transform: scale(1.1)
     &__h4
-        font-family: Lato
+        font-family: 'Lato'
         font-size: 25px
         font-weight: 300
         color: #818b95
@@ -249,7 +249,7 @@
         left: -15px
         transition: all 0.5s linear
     &__per-month
-        font-family: Lato
+        font-family: 'Lato'
         font-size: 20px
         font-weight: 300
         line-height: 0.0
@@ -257,7 +257,7 @@
         margin-bottom: 33px
         transition: all 0.5s linear
     &__text
-        font-family: Lato
+        font-family: 'Lato'
         font-size: 14px
         font-weight: 300
         line-height: 1.1
@@ -280,7 +280,7 @@
         width: 131px
         border: none
         color: #fff
-        font-family: Lato
+        font-family: 'Lato'
         font-size: 14px
         cursor: pointer
 
@@ -303,13 +303,13 @@
 .how-it-work-box
     margin-top: 155px
     &__h3
-        font-family: Lato
+        font-family: 'Lato'
         font-size: 30px
         font-weight: 900
         letter-spacing: -0.75px
         text-align: center
     &__text
-        ont-family: Lato
+        ont-family: 'Lato'
         font-size: 18px
         font-weight: 300
         color: #75888d
@@ -344,12 +344,12 @@
     width: 100%
     max-width: 213px
     &__h4
-        font-family: Lato
+        font-family: 'Lato'
         font-size: 20px
         color: #394b50
         text-transform: uppercase
     &__text
-        font-family: OpenSans
+        font-family: 'Open Sans'
         font-size: 13px
         color: #7b7b7b
         margin-top: 28px
@@ -363,15 +363,17 @@
     border: none
     color: #fff
     cursor: pointer
-    font-family: Lato
+    font-family: 'Lato'
     font-size: 14px
 
 // clients-box
 .clients-box
     background-color: #ffc155
+    margin-bottom: 154px
+    min-height: 908px
     &__h3
         padding-top: 141px
-        font-family: Lato
+        font-family: 'Lato'
         font-size: 30px
         font-weight: 900
         letter-spacing: -0.75px
@@ -379,13 +381,14 @@
         color: #fff
         text-transform: uppercase
     &__text
-        font-family: OpenSans
+        font-family: 'Open Sans'
         line-height: 1.38
         font-size: 16px
         font-weight: 300
         color: #75888d
         text-align: center
         color: #fff
+        margin-bottom: 58px
 
 .clients-flex
     display: flex
@@ -395,17 +398,22 @@
     max-width: 567px
     width: 100%
     background-color: #fff
-    padding: 41px 182px
     position: relative
+    margin-bottom: 20px
     &__img
         position: absolute
+        left: 4%
+        top: 43px
     &__text
-        font-family: OpenSans
+        margin: 51px 41px 29px 182px
+        font-family: 'Open Sans'
         font-size: 13px
         color: #7b7b7b
         max-width: 344px
         width: 100%
         text-align: left
+        position: relative
+        line-height: 1.69
     &__text:before
         content: ''//url(img/“_.png)
         background-image: url(img/“_.png)
@@ -413,7 +421,8 @@
         height: 9px
         position: absolute
         background-size: cover
-        left: 35%
+        left: -15px
+        top: 0px
     &__text:after
         content: ''//url(img/_“.png)
         background-image: url(img/_“.png)
@@ -421,4 +430,134 @@
         height: 9px
         position: absolute
         background-size: cover
-        left: 25%
+        left: 200px
+        top: 100px
+    &__post
+        font-family: Lato
+        font-size: 14px
+        color: #99a9ae
+        text-transform: uppercase
+        margin-left: 182px
+        margin-bottom: 51px
+    &__name
+        color: #f6772c
+
+// newsletter-box
+.newsletter-box
+    text-align: center
+    &__h3
+        font-family: 'Open Sans'
+        font-size: 30px
+        font-weight: 900
+        letter-spacing: -0.75px
+        text-transform: uppercase
+        color: #394b50
+    &__text
+        font-family: 'Open Sans'
+        font-size: 16px
+        font-weight: 300
+        line-height: 1.38
+        color: #394b50
+    &__line
+        border: none
+        height: 1px
+        background-color: #e3e7ec
+        margin-top: 57px
+
+.newsletter-form
+    margin-top: 38px
+    &__name
+        max-width: 250px
+        width: 100%
+        height: 43px
+        padding: 0px 10px 0px 44px
+        color: #a9a9a9
+        font-family: 'Open Sans'
+        font-size: 13px
+        border: solid 1px #cbcbcb
+    &__email
+        max-width: 330px
+        width: 100%
+        height: 43px
+        padding: 0px 10px 0px 44px
+        color: #a9a9a9
+        font-family: 'Open Sans'
+        font-size: 13px
+        border: solid 1px #cbcbcb
+        margin-left: 10px
+    &__btn
+        width: 218px
+        height: 47px
+        background-color: #ffbb42
+        color: #fff
+        border: none
+        text-transform: uppercase
+        font-family: 'Lato'
+        font-size: 14px
+        margin-left: 10px
+        margin-top: 10px
+        cursor: pointer
+
+.address_box
+    margin-top: 53px
+    height: 549px
+    background-image: url(img/newsletter.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    position: relative
+    &__h4
+        padding-top: 95px
+        color: #fff
+        text-transform: uppercase
+        font-family: 'Lato'
+        font-size: 15px
+        padding-bottom: 10px
+    &__text
+        font-family: 'Open Sans'
+        line-height: 1.85
+        font-size: 13px
+        color: #aeb7ba
+    &__email
+        font-family: 'Open Sans'
+        line-height: 1.85
+        font-size: 13px
+        color: #ffbb42
+
+.menu-bottom
+    margin-top: 68px
+    &__link
+        font-family: "Lato"
+        font-size: 13px
+        color: #394b50
+
+.phone
+    margin-top: 29px
+    text-align: center
+    color: #394b50
+    font-size: 20px
+    font-family: 'Lato'
+
+.messenger
+    text-align: center
+    &__logo
+        margin-top: 23px
+        font-size: 18.5px
+        color: #709dca
+        padding-left: 17px
+        &_hover:hover
+            color: #ffc155
+
+.copyright-box
+    margin-top: 52px
+    background-color: #709dca
+    height: 49px
+    display: flex
+    align-items: center
+    &__text
+        padding: auto 0
+        text-align: center
+        color: #fff
+        font-family: 'Open Sans'
+        font-size: 13px
+        line-height: 1.85

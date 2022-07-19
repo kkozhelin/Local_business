@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&family=Open+Sans:wght@300;400;500;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/e11ac21149.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="normalize.css">
@@ -24,13 +24,13 @@
                     <a href="index.html"><img src="img/logo.png" alt="logo"></a>
                 </div>
                 <div class="menu-right">
-                    <a class="menu-right__link menu-right__link_hover" href="#">HOME</a>
-                    <a class="menu-right__link menu-right__link_hover" href="#">SERVICE</a>
-                    <a class="menu-right__link menu-right__link_hover" href="#">ABOUT US</a>
-                    <a class="menu-right__link menu-right__link_hover" href="#">PRICING TABLE</a>
-                    <a class="menu-right__link menu-right__link_hover" href="#">HOW IT WORK </a>
-                    <a class="menu-right__link menu-right__link_hover" href="#">HAPPY CLIENTS</a>
-                    <a class="menu-right__link menu-right__link_hover" href="#">CONTACT US</a>
+                    <a class="menu__link menu__link_hover" href="#">HOME</a>
+                    <a class="menu__link menu__link_hover" href="#">SERVICE</a>
+                    <a class="menu__link menu__link_hover" href="#">ABOUT US</a>
+                    <a class="menu__link menu__link_hover" href="#">PRICING TABLE</a>
+                    <a class="menu__link menu__link_hover" href="#">HOW IT WORK </a>
+                    <a class="menu__link menu__link_hover" href="#">HAPPY CLIENTS</a>
+                    <a class="menu__link menu__link_hover" href="#">CONTACT US</a>
                 </div>
             </nav>
         </div>
@@ -257,11 +257,88 @@
                         and
                         scrambled
                         it to make.</p>
-                    <p><span>Darwin Michle,</span> Project manager</p>
+                    <p class="client__post"><span class="client__name">Darwin Michle, </span> Project manager</p>
+                </figure>
+                <figure class="client">
+                    <img class="client__img" src="img/figure2.png" alt="figure_img">
+                    <p class="client__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industrystandard dummy text ever since the 1500s, wen an unknown
+                        printer took a galley of type and scrambled
+                        to make a type specimen book.</p>
+                    <p class="client__post"><span class="client__name">Madam Elisabath, </span> Creative Director</p>
+                </figure>
+                <figure class="client">
+                    <img class="client__img" src="img/figure3.png" alt="figure_img">
+                    <p class="client__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make.</p>
+                    <p class="client__post"><span class="client__name">Clips arter, </span> Lipsum directer</p>
+                </figure>
+                <figure class="client">
+                    <img class="client__img" src="img/figure4.png" alt="figure_img">
+                    <p class="client__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industrystandard dummy text ever since the 1500s, wen an unknown
+                        printer took a galley of type and scrambled
+                        to make a type specimen book.</p>
+                    <p class="client__post"><span class="client__name">zam cristafr, </span> manager</p>
                 </figure>
             </div>
         </div>
     </section>
+
+    <section class="newsletter-box">
+        <div class="container">
+            <h3 class="newsletter-box__h3">newsletter</h3>
+            <p class="newsletter-box__text">Lorem Ipsum is simply dummy Business industry</p>
+            <form class="newsletter-form" action="#">
+                <input class="newsletter-form__name header-form__input-user" type="text" name="" id=""
+                    placeholder="Full Name">
+                <input class="newsletter-form__email header-form__input-email" type="email" name="" id=""
+                    placeholder="Email address">
+                <button class="newsletter-form__btn" type="submit">Subscribe now</button>
+            </form>
+            <div class="address_box">
+                <h4 class="address_box__h4">address</h4>
+                <p class="address_box__text">Business street</p>
+                <p class="address_box__text">Second north section</p>
+                <p class="address_box__text">Bavani nagar. 88769</p>
+                <p class="address_box__text">Call : +987-9976-999</p>
+                <p class="address_box__email">info@businessface.com</p>
+            </div>
+            <hr class="newsletter-box__line">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="menu">
+                <div class="menu-bottom">
+                    <a class="menu__link menu__link_hover menu-bottom__link" href="#">HOME</a>
+                    <a class="menu__link menu__link_hover menu-bottom__link" href="#">SERVICE</a>
+                    <a class="menu__link menu__link_hover menu-bottom__link" href="#">ABOUT US</a>
+                    <a class="menu__link menu__link_hover menu-bottom__link" href="#">PRICING TABLE</a>
+                    <a class="menu__link menu__link_hover menu-bottom__link" href="#">HOW IT WORK </a>
+                    <a class="menu__link menu__link_hover menu-bottom__link" href="#">HAPPY CLIENTS</a>
+                    <a class="menu__link menu__link_hover menu-bottom__link" href="#">CONTACT US</a>
+                </div>
+            </nav>
+            <div class="phone">
+                <i class="fa-solid fa-phone phone__number"> + 987 9976 999</i>
+            </div>
+            <div class="messenger">
+                <a href="#"><i class="fa-brands fa-twitter messenger__logo messenger__logo_hover"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f messenger__logo messenger__logo_hover"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g messenger__logo messenger__logo_hover"></i></a>
+                <a href=""><i class="fa-brands fa-invision messenger__logo messenger__logo_hover"></i></a>
+            </div>
+        </div>
+        <div class="copyright-box">
+            <div class="container">
+                <p class="copyright-box__text">All contents © copyright 2014 Business Theme. All rights reserved
+                    Designed by : akhilwebfolio</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
