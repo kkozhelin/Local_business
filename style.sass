@@ -365,3 +365,60 @@
     cursor: pointer
     font-family: Lato
     font-size: 14px
+
+// clients-box
+.clients-box
+    background-color: #ffc155
+    &__h3
+        padding-top: 141px
+        font-family: Lato
+        font-size: 30px
+        font-weight: 900
+        letter-spacing: -0.75px
+        text-align: center
+        color: #fff
+        text-transform: uppercase
+    &__text
+        font-family: OpenSans
+        line-height: 1.38
+        font-size: 16px
+        font-weight: 300
+        color: #75888d
+        text-align: center
+        color: #fff
+
+.clients-flex
+    display: flex
+    flex-wrap: wrap
+
+.client
+    max-width: 567px
+    width: 100%
+    background-color: #fff
+    padding: 41px 182px
+    position: relative
+    &__img
+        position: absolute
+    &__text
+        font-family: OpenSans
+        font-size: 13px
+        color: #7b7b7b
+        max-width: 344px
+        width: 100%
+        text-align: left
+    &__text:before
+        content: ''//url(img/“_.png)
+        background-image: url(img/“_.png)
+        width: 11px
+        height: 9px
+        position: absolute
+        background-size: cover
+        left: 35%
+    &__text:after
+        content: ''//url(img/_“.png)
+        background-image: url(img/_“.png)
+        width: 11px
+        height: 9px
+        position: absolute
+        background-size: cover
+        left: 25%
