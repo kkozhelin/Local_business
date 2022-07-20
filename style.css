@@ -3,13 +3,10 @@
   padding: 0;
   margin: 0 auto;
 }
-* .container {
+
+.container {
   max-width: 1170px;
   margin: 0 auto;
-}
-
-.content {
-  padding: 3% 2% 0;
 }
 
 .menu {
@@ -52,6 +49,7 @@
   font-weight: 900;
   color: #ffffff;
   margin: 0px;
+  text-transform: uppercase;
 }
 .header-box__text {
   text-align: center;
@@ -59,6 +57,8 @@
   font-size: 16px;
   padding: 0px 0px 0px 0px;
   margin-top: 5px;
+  font-weight: 300;
+  font-family: "Open Sans";
 }
 
 .header-form {
@@ -100,7 +100,6 @@
   color: #ffffff;
   font-family: "Open Sans";
   font-size: 16px;
-  font-weight: 900;
   border: none;
   cursor: pointer;
 }
@@ -132,6 +131,8 @@
   font-size: 30px;
   font-weight: 900;
   margin: 0px;
+  text-transform: uppercase;
+  color: #394b50;
 }
 .service__text {
   text-align: center;
@@ -182,24 +183,25 @@
 
 .about-box {
   background-color: #ffc155;
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
 }
 .about-box__img {
-  height: auto;
-  max-width: 50%;
+  width: 100%;
+  height: 623px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .flex-box {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .about-us {
   align-self: center;
-  width: 100%;
-  padding-left: 20px;
+  padding-left: 80px;
   padding-right: 2%;
+  width: 80%;
 }
 .about-us__h3 {
   color: #fff;
@@ -210,7 +212,7 @@
   margin-bottom: 28px;
 }
 .about-us__text {
-  max-width: 505px;
+  margin-left: 0px;
   font-size: 13px;
   margin-top: 0px;
   color: #fff;
@@ -236,6 +238,8 @@
   font-size: 30px;
   font-weight: 900;
   letter-spacing: -0.75px;
+  text-transform: uppercase;
+  color: #394b50;
 }
 .price-box__text {
   ont-family: "Lato";
@@ -358,6 +362,8 @@
   font-weight: 900;
   letter-spacing: -0.75px;
   text-align: center;
+  text-transform: uppercase;
+  color: #394b50;
 }
 .how-it-work-box__text {
   ont-family: "Lato";
@@ -432,9 +438,9 @@
   background-color: #ffc155;
   margin-bottom: 154px;
   min-height: 908px;
+  padding-top: 141px;
 }
 .clients-box__h3 {
-  padding-top: 141px;
   font-family: "Lato";
   font-size: 30px;
   font-weight: 900;
